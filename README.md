@@ -1,1 +1,49 @@
-# mysql-docker-playground
+<h2>Installation</h2>
+<table>
+  <tr>
+    <th>Operations</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+  <td>install connector for python</td>
+  <td>pip install mysql-connector-python</td>
+  </tr>
+  <tr>
+  <td>run the mysql container</td>
+  <td>docker container run -d -p 3306:3306 --name my-mysql --env MYSQL_ROOT_PASSWORD=123abc mysql</td>
+  </tr>
+  <tr>
+  <td>Enter the container command line</td>
+  <td>docker container exec -it my-mysql bash</td>
+  </tr>
+  <tr>
+  <td>Enter mysql as root</td>
+  <td>mysql -u root -p123abc</td>
+  </tr>
+  <tr>
+  <td>create database db1</td>
+  <td>create database db1;</td>
+  </tr>
+  <tr>
+  <td>attach to database db1</td>
+  <td>use db1</td>
+  </tr>
+  <tr>
+  <td>create a table in database db1</td>
+  <td>create table employees(id int not null , name text , primary key (id));</td>
+  </tr>
+  <tr>
+  <td>insert values to table</td>
+  <td>insert into employees (id  , name) values (1 , 'Nathan');</td>
+  </tr>
+  <tr>
+  <td>read values from table</td>
+  <td>select * from employees;</td>
+  </tr>
+</table>
+
+
+<h2>points of interest</h2>
+<ul>
+<li>all opertions done on the table are sql statements</li>
+</ul>
