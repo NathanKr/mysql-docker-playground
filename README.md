@@ -54,3 +54,8 @@
 <ul>
 <li>all opertions done on the table are sql statements</li>
 </ul>
+
+<h2>future</h2>
+<ul>
+<li>most clean way to create database and table is by creating new mysql docker image based on mysql docker image. using sql script sql and run it via run in the docker file it is possible </li>
+</ul>
