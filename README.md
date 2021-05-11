@@ -2,6 +2,7 @@
 <ul>
 <li>The installation spawn a mysql docker container with db1 data base and employees table</li>
 <li>my_sql_connector.py is a client app that uses mysql.connector to access mysql using sql</li>
+<li>the image used to create the container is pre defined <a href='https://hub.docker.com/_/mysql'>mysql image</a> </li>
 </ul>
 
 
